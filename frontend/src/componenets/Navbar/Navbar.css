@@ -1,0 +1,51 @@
+.navbar{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: #fff;
+                    padding: 15px 7%;
+                    transition: 0.5s;
+}
+.logo{
+                    width: 160px;
+                    cursor: pointer;
+}
+ul{
+                    flex: 1;
+                    list-style: none;
+                    text-align: center;
+}
+ul li{
+                    display: inline-block;
+                    margin: 10px 20px;
+                    font-size: 18px;
+                    cursor: pointer;
+}
+.mode{
+                    width: 50px;
+                    cursor: pointer;
+                    margin-left: 40px;
+}
+.dark .navbar{
+                    background: #babd62;
+                    color: #fff;
+}
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.carousel-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px; /* Adjust to fit your design */
+}
+
+.carousel-item img {
+  height: auto;
+  max-height: 500px; /* Set a max height if needed */
+}

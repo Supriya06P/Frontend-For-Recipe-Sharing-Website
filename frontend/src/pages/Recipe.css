@@ -1,0 +1,19 @@
+.container.cards-container {
+  background-color: rgb(165, 191, 200);
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.container.dark .cards-container {
+  background: #222;
+  color: #eaeaea;
+}
+
+.container.cards-container {
+  box-shadow: 0 4px 12px rgba(182, 43, 43, 0.1);
+}
+
+.container.dark .cards-container {
+  box-shadow: 0 6px 16px rgba(204, 11, 11, 0.3);
+}

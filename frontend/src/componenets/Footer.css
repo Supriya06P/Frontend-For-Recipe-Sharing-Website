@@ -1,0 +1,44 @@
+
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;  
+}
+
+
+.footer.light {
+  background-color: #f1f1f1;
+  color: #333;  
+}
+
+.footer.light a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer.light a:hover {
+  text-decoration: underline;
+}
+
+
+.footer.dark {
+  background-color: #333;
+  color: #fff;  
+}
+
+
+.footer.dark a {
+  color: #ffcc00;  
+  text-decoration: none;
+}
+
+.footer.dark a:hover {
+  text-decoration: underline;
+}
+
+.footer.dark p {
+  color: #fff !important;  
+}
