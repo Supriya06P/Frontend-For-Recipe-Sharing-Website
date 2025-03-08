@@ -31,7 +31,7 @@ ul li{
                     background: #babd62;
                     color: #fff;
 }
-/* Navbar.css */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -42,10 +42,10 @@ ul li{
 .carousel-container {
   margin-top: 20px;
   width: 100%;
-  max-width: 800px; /* Adjust to fit your design */
+  max-width: 800px;
 }
 
 .carousel-item img {
   height: auto;
-  max-height: 500px; /* Set a max height if needed */
+  max-height: 500px; 
 }

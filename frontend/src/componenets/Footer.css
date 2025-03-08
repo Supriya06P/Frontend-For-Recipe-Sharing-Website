@@ -1,17 +1,14 @@
-
 .footer {
   width: 100%;
   padding: 20px 0;
   text-align: center;
   font-size: 14px;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-  margin-top: 40px;  
+  margin-top: 0px;
 }
-
 
 .footer.light {
   background-color: #f1f1f1;
-  color: #333;  
+  color: #333;
 }
 
 .footer.light a {
@@ -23,15 +20,13 @@
   text-decoration: underline;
 }
 
-
 .footer.dark {
   background-color: #333;
-  color: #fff;  
+  color: #fff;
 }
 
-
 .footer.dark a {
-  color: #ffcc00;  
+  color: #0b0b0b;
   text-decoration: none;
 }
 
@@ -40,5 +35,19 @@
 }
 
 .footer.dark p {
-  color: #fff !important;  
+  color: #ddbcbc !important;  
+  font-size: 20px; 
+}
+
+.footer.light p {
+  color: #e4d1d1 !important;  
+  font-size: 20px; 
+}
+
+.footer.dark p a {
+  color: #3e79b7; 
+}
+
+.footer.dark p a:hover {
+  color: #3e79b7;
 }

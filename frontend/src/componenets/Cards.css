@@ -1,19 +1,136 @@
 .container.cards-container {
-  background-color: rgb(165, 191, 200);
+  background-color: rgb(245, 245, 245); 
   padding: 20px;
-  border-radius: 8px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(219, 33, 33, 0.1);
   transition: all 0.3s ease-in-out;
 }
-
 .container.dark .cards-container {
-  background: #222;
-  color: #eaeaea;
+  background-color: #222;
+  color: #eaeaea; 
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
 }
 
-.container.cards-container {
-  box-shadow: 0 4px 12px rgba(182, 43, 43, 0.1);
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out; 
+  background-color: #fff;
+  color: #333; 
 }
 
-.container.dark .cards-container {
-  box-shadow: 0 6px 16px rgba(204, 11, 11, 0.3);
+.container.dark .card {
+  background-color: #333;
+  color: #eaeaea; 
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.card-img {
+  height: 200px; 
+  object-fit: cover; 
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4e3b3b; 
+}
+
+.container.dark .card-title {
+  color: #ffffff; 
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #b8a6a6;
+  margin-bottom: 15px;
+}
+
+.container.dark .card-text {
+  color: #ccc; 
+
+}
+.recipe-info {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.recipe-info p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.container.dark .recipe-info {
+  color: #ccc;
+}
+.container.dark .recipe-info p {
+  color: #ddd; 
+}
+.recipe-info strong {
+  color: #8b2828;
+  font-weight: bold;
+}
+
+.container.dark .recipe-info strong {
+  color: #f5a623; 
+}
+.card-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #0056b3; 
+}
+
+.container.dark .card-button {
+  background-color: #0066cc; 
+}
+
+.container.dark .card-button:hover {
+  background-color: #004499; 
+}
+
+@media (max-width: 768px) {
+  .container.cards-container {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  .card-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+.container .no-recipes-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 20px;
+}
+
+.container.dark .no-recipes-message {
+  color: #eaeaea; 
 }
